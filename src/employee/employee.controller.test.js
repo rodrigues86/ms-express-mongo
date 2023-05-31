@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const app = require('../app');
+const app = require('./../main');
 const Employee = require('./employee.schema');
 const request = require('supertest');
 

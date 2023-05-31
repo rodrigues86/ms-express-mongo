@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const PORT = process.env.PORT || 4000;
 
-mongoose.connect('mongodb://localhost:27017/mydatabase', {
+mongoose.connect('mongodb://localhost:27017/rrdb', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
