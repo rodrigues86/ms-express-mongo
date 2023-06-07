@@ -15,4 +15,6 @@ db.once('open', () => {
   console.info('Connected to MongoDB');
 });
 
+require('./routes')(app)
+
 app.listen(PORT, () => console.log(`Server runing on port ${PORT}`));
